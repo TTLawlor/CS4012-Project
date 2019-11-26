@@ -1,6 +1,7 @@
 body {
 	background-color: #FCF49C;
 	text-align: justify;
+	margin: 15px;
 }
 
 h1 {
@@ -20,7 +21,7 @@ h1 {
  }
 
  h3 {
-padding-left: 20px;
+margin: 50%
 font-size: 20px;
 text-align: center;
  }
@@ -40,7 +41,7 @@ text-align: center;
  	text-align: center;
  	font-size: 60px;
  	padding-top: 20%;
- 	color: #b3b3ff;
+ 	text-shadow: 2px 2px #ccccff;
  }
 
  h2.double {border-style: double; background-color: white;}
@@ -54,9 +55,9 @@ text-align: center;
  background-attachment: fixed;
  }
 
- .impact, .solutions,.death {
+ .impact,.solutions,.death,.sponsors {
  	clear: both;
-
+ 	margin-bottom: 30px;
  	background-attachment: scroll;
  	background-image: url('https://cdn.pixabay.com/photo/2019/03/25/15/26/nature-4080511_960_720.jpg');
  	background-size: 35% 100px;
@@ -90,6 +91,63 @@ p.dashed:hover {
 	color: #e6ac00
 }
 
+.column3 {
+	float: left;
+	width: 20%
+	padding: 10px;
+	height: 150px;
+}
+
+.left, .right {
+	width: 25%;
+}
+
+.middle {
+	width: 50%;
+}
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.beehive {
+	height: 200px;
+	width: 300px;
+	float: left;
+}
+
+.beehive2 {
+	height: 200px;
+	width: 300px;
+	float: right;
+}
+
+.button2 a:link, a:visited {
+	border-style: dashed; 
+	border-width: 4px;  
+	background-color: white;
+	padding: 15px 30px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	clear: both;
+	display: inline-block;
+	font-weight: bold;
+	margin-left: 35%
+
+	
+}
+
+.button2 a:hover {
+	background-color: #e6ac00
+}
+
+.logo {
+	padding: 15px;
+}
+
 .TamaraT{
 	float: left;
 }
@@ -103,15 +161,20 @@ p.dashed:hover {
 .TamaraT tr{
 	transition: transform .2s;
 }
-.TamaraT tr:hover {background-color: #e6ac00;
-transform: scale(1.1); }
+.TamaraT tr:hover {
+	background-color: #e6ac00;
+	transform: scale(1.1); 
+}
 .TamaraT th, td {
 	padding: 15px;
 }
 
+.subtable2 {
+	padding-top: 30px;
+}
+
 ol li {
 	clear: both;
-	padding-top: 30px;
 	font-size: 24px;
 	font-style:italic;
 }
@@ -147,7 +210,7 @@ p {
 }
 
 .Footer {
-	padding-top: 30px;
+	margin-top: 30px;
 	font-size: 20px;
 	position: static;
 	text-align: left;
@@ -217,7 +280,6 @@ iframe {
 	float: right;
 }
 
-
 blockquote {
 font-size: 18px
 }
@@ -240,12 +302,24 @@ height: 30px;
 padding: 15px;
 }
 
+.table2 th {
+	background-color: #e6ac00;
+}
+
+.table2 td:hover {
+	background-color: #e6ac00;
+	transform: scale(1.1); 
+}
+
 .middle {
 padding-top: 50px;
 }
 
 .imgtext {
 float: left;
+font-weight: bold;
+font-style: italic;
+text-decoration: underline;
 }
 
 .subpic {
@@ -255,6 +329,7 @@ float: right;
 .link:link {
  text-decoration: none;
  color: blue;
+ font-style: italic;
 }
 
 .link:visited {
@@ -272,7 +347,7 @@ float: right;
 
 .buzz {
 position: relative;
-left: 50%;
+left: 38%;
 }
 
 
