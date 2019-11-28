@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="style_1.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <title>The Bees Knees</title>
 </head>
 <body>
@@ -13,20 +13,19 @@
     <nav>
         <ul>
 
-            <li><p class="dashed"><a
-                    href="file:///Users/TheBaconPancake/Desktop/Projects/HTML:CSS%20PROJECT.html">Home</a></p></li>
-            <li><p class="dashed"><a href="file:///Users/TheBaconPancake/Desktop/Projects/HTML:CSS%20SITUATION.html">The
+            <li><p class="dashed"><a href="file:///Users/TheBaconPancake/Desktop/Projects/CS4012%20HTML:CSS/HTML:CSS%20HOME.html">Home</a></p></li>
+            <li><p class="dashed"><a href="file:///Users/TheBaconPancake/Desktop/Projects/CS4012%20HTML:CSS/HTML:CSS%20SITUATION.html">The
                 Situation</a></p></li>
-            <li><p class="dashed"><a href="file:///Users/TheBaconPancake/Desktop/Projects/HTML:CSS%20SOLUTIONS.html">The
+            <li><p class="dashed"><a href="file:///Users/TheBaconPancake/Desktop/Projects/CS4012%20HTML:CSS/HTML:CSS%20SOLUTION.html">The
                 Solution</a></p></li>
-            <li><p class="dashed"><a href="file:///Users/TheBaconPancake/Desktop/Projects/HTML:CSS%20SITUATION.html">The
+            <li><p class="dashed"><a href="file:///Users/TheBaconPancake/Desktop/Projects/CS4012%20HTML:CSS/HTML:CSS%20BEES.html">The
                 Bees Knees</a></p></li>
 
         </ul>
     </nav>
 </div>
 
-<div class="death">
+<div class="heading">
     <h2 class="double"> The Bees Knees </h2>
 </div>
 <section>
@@ -35,33 +34,28 @@
         Most commonly used as a phrase to describe something as being the best of quality, the bee’s knees
         truly live up to their legacy. </p>
 
-    <div class="intro">
+    
         <audio controls>
-            <source src="Intro.mp3" type="audio/mpeg">
+            <source class="intro" src="according to all known laws of aviation (1).mp3" type="audio/mpeg">
         </audio>
-    </div>
+   
 
-    <p>According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to
-        get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans
-        think is impossible. Bees have knees, knees that contain herculean like strength and power. A bee’s take off has
-        a velocity comparable to the force of splitting an atom. This wouldn’t be possible without the efficient
-        machine-like inner workings of the bee’s hinge joints, ligaments, cartilage and tissue. The bee’s knees are
-        special and need to be protected at all costs.</p>
+    <p>According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossible. Bees have knees, knees that contain herculean like strength and power. A bee’s take off has a velocity comparable to the force of splitting an atom. This wouldn’t be possible without the efficient machine-like inner workings of the bee’s hinge joints, ligaments, cartilage and tissue. The bee’s knees are special and need to be protected at all costs.</p>
 
     <h3 class="imgtext">
         4Chan have shown their support to our cause as shown in this picture:
     </h3>
 
-    <img src="bememebee.jpg"
+    <img class="beeimg" src="https://ih0.redbubble.net/image.453439307.5655/flat,800x800,070,f.u1.jpg"
          alt="Be me me bee">
 
 
-    <div class="death">
+    <div class="heading">
         <h2 class="double">
             Bee Gains</h2>
     </div>
 
-    <p>The lose of the bees would mean the loss of the worlds greatest marvel in sheer power and the defiance of
+    <p>The loss of the bees would mean the loss of the worlds greatest marvel in sheer power and the defiance of
         gravity. You can do your part. Implementing <a class= "link" href="https://www.vita-europe.com/beehealth/products/bee-gym/"> in hive gyms</a>
         We want to make sure that no bee is ever forced to skip leg day again, keeping the bee’s knees healthy and
         functioning correctly. We have the biggest experts in the fitness of bees in our team, working alongside our
@@ -69,7 +63,7 @@
         for what will be the future of bee livelihood, but we need your help.
     </p>
 
-    <p class="middle">
+    <p>
         Our Bee Gyms cost thousands to make as well as using up a huge amount of man hours. The state of the art gyms
         can not be made possible without the support of the general public. The Bees get their pump in using various
         types of weight training methods. They have free weights and dumbbells specifically designed to enhance bee
